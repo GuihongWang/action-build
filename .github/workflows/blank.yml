@@ -32,12 +32,12 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: git Platinum
         run: |
-git clone https://github.com/PatchyVideo/platinum.git
-cd platinum
-npm i -location=global pnpm
-pnpm i
-pnpm codegen
-pnpm build
-ls
+          git clone https://github.com/PatchyVideo/platinum.git
+          cd platinum
+          npm i -location=global pnpm
+          pnpm i
+          pnpm codegen
+          pnpm build
+          ls
 
 
