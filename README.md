@@ -2,7 +2,9 @@
 
 # Target 
 
-Ubuntu-lastet (base on debian) windows-latest ~并支持内网穿透~(还在研究
+![Ubuntu-lastet](https://github.com/actions/virtual-environments/blob/main/images/linux/Ubuntu2004-Readme.md) (base on debian) ![windows-latest](https://github.com/actions/virtual-environments/blob/main/images/win/Windows2022-Readme.md) ~并支持内网穿透~(还在研究
+
+关于 机器配置 请参考上面的蓝字
 
 # 注意 
 
