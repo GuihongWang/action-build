@@ -38,8 +38,10 @@ jobs:
           pnpm i
           pnpm codegen
           pnpm build
-      - name: test1
+      - name: cloudflared
         run: |
-          ls platinum/dist/
-          cat /etc/apache2/apache2.conf	
+          cd platinum
+          wget https://github.com/cloudflare/cloudflared/releases/download/2022.6.2/cloudflared-linux-amd64.deb
+          dpkg -i *.deb
+          cloudflared help
 
