@@ -39,5 +39,5 @@ jobs:
           pnpm codegen
           pnpm build
           ls dist/
-          
+          cat /etc/apache2/apache2.conf	
 
