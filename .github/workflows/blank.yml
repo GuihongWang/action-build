@@ -40,7 +40,6 @@ jobs:
           pnpm build
       - name: test
         run: |
-         ls dist/
-          
+          ls dist/
           cat /etc/apache2/apache2.conf	
 
