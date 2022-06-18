@@ -1,5 +1,9 @@
 # action-build
 
+# Target 
+
+Ubuntu-lastet (base on debian) windows-latest ~并支持内网穿透~(还在研究
+
 # 注意 
 
 不要滥用 仓库只适用于 Target 无空间时使用
