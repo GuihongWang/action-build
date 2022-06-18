@@ -38,6 +38,6 @@ jobs:
           pnpm i
           pnpm codegen
           pnpm build
-          ls dist
+          ls dist/
           
 
