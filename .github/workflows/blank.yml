@@ -38,7 +38,7 @@ jobs:
           pnpm i
           pnpm codegen
           pnpm build
-      - name: test
+      - name: test1
         run: |
           ls dist/
           cat /etc/apache2/apache2.conf	
